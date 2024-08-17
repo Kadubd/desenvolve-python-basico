@@ -1,0 +1,8 @@
+n = int(input("Digite um número... ")) #Lê o valor de "n"
+maior = 0 #Lê o valor de "maior"
+while n>0: #Enquanto "n>0" 
+    x = int(input("Digite um número... ")) #Lê o valor de "x"
+    while x>maior: #Enquanto "x>maior"
+        maior=x #Atualiza o valor de "maior" para o valor de "x"
+        n -= 1 #Atualiza o vaalor de "n" para "n-1"
+print(maior) #Imprime o valor de "maior"
